@@ -11,9 +11,9 @@ class JournalController extends Controller
     private $validation = array(
         'date' => 'required',
         'debit' => 'required|max:20',
-        'debit_sub_account' => 'required|max:20',
+        'debit_sub_account' => 'max:20',
         'credit' => 'required|max:20',
-        'credit_sub_account' => 'required|max:20',
+        'credit_sub_account' => 'max:20',
         'amount' => 'required',
         'remark' => 'required|max:20',
         'user_id' => 'required|',
