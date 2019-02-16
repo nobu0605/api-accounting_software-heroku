@@ -15,8 +15,8 @@ class JournalController extends Controller
         'credit' => 'required|max:20',
         'credit_sub_account' => 'max:20',
         'amount' => 'required',
-        'remark' => 'required|max:20',
-        'user_id' => 'required|',
+        'remark' => 'max:20',
+        'user_id' => 'required',
     );
 
     private function requestData($journal,$request){
