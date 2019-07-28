@@ -10,7 +10,8 @@ class Account extends Model
         'account',
         'type'
     ];
-    public function journals(){
+    public function journals()
+    {
         return $this->hasMany('App\Journal');
     }
 }

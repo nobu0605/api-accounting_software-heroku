@@ -16,7 +16,8 @@ class Journal extends Model
         'remark',
         'user_id'
     ];
-    public function account(){
+    public function account()
+    {
         return $this->belongsto('App\Account');
     }
 }
