@@ -8,7 +8,7 @@ api/amounts
 
 api/journals
 仕訳データ
-
+ 
 api/reports
 財務分析レポートデータ
 
